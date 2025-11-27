@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid rgb(153, 217, 234);
+    background: rgb(94, 140, 153);
+    font-weight: bold;
+    color: white; 
+    cursor: pointer;
+}
+.btn:hover {
+    border: 1px solid black;
+  }
+
+.pContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(156, 173, 235);
+    border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+
+.btnX {
+    margin-left: 10px;;
+
+    border-radius: 5px;
+    background: rgb(156, 173, 235);
+    font-weight: bold;
+    color: white;  
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.msgInput {
+    padding: 14px;
+    margin-right: 16px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid rgb(94, 140, 153);
+    font-size: 0.9rem;
+  }
+
+.msgInput:hover {
+  border: 1px solid black;
+}
+
+.btn {
+    width: 30%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid rgb(153, 217, 234);
+    background: rgb(94, 140, 153);
+    font-weight: bold;
+    color: white;  
+    cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid black;
+}

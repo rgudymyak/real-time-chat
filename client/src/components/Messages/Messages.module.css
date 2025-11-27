@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.msgContainer {
+    background: rgb(156, 173, 235);
+    border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 12px;
+}
+
+.messagesList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}   
+
+.msg {
+    max-width: 500px;
+    overflow-wrap: break-word;
+    padding: 10px
+}
